@@ -5,7 +5,8 @@
 source code is currently aimed towards *nix systems (specifically linux), but it probably compiles for windows with mingw.
 
 the binary pulls answers from /usr/local/bin/8ball.txt (this can be modified for windows targets)
-you can add custom answers by adding to that file.
+
+you can add custom answers by adding them to that file.
 
 ### installation
 

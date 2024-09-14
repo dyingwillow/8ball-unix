@@ -5,7 +5,8 @@
 source code is currently aimed towards *nix systems (specifically linux), but it probably compiles for windows with mingw.
 
 the binary pulls answers from /usr/local/bin/8ball.txt (this can be modified for windows targets)
-you can add custom answers by adding to that file.
+
+you can add custom answers by adding them to that file.
 
 ### installation
 
@@ -24,9 +25,9 @@ the thinking period of the 8 ball is just a 3 second sleep state in the code.
 ```
 git clone https://github.com/dyingwillow/8ball-unix
 
-cd 8ball-unix
+cd 8ball-unix/src
 
-sudo cp 8ball.txt /usr/local/bin/8ball.txt
+sudo cp ../8ball.txt /usr/local/bin/8ball.txt
 
 gcc main.c -o 8ball # // gcc noinput.c -o 8ball-noinput for no input version
 

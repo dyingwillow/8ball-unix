@@ -24,9 +24,9 @@ the thinking period of the 8 ball is just a 3 second sleep state in the code.
 ```
 git clone https://github.com/dyingwillow/8ball-unix
 
-cd 8ball-unix
+cd 8ball-unix/src
 
-sudo cp 8ball.txt /usr/local/bin/8ball.txt
+sudo cp ../8ball.txt /usr/local/bin/8ball.txt
 
 gcc main.c -o 8ball # // gcc noinput.c -o 8ball-noinput for no input version
 
